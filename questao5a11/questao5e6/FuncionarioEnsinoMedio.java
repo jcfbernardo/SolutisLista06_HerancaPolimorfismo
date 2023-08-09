@@ -23,6 +23,6 @@ public class FuncionarioEnsinoMedio extends FuncionarioEnsinoBasico{
     }
 
     public double getRendaTotal() {
-        return super.getRendaTotal() + super.getRendaTotal()*1.5;
+        return super.getRendaTotal()*1.5;
     }
 }
