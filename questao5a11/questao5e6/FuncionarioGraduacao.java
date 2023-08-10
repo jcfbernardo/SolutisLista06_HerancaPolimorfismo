@@ -18,4 +18,10 @@ public class FuncionarioGraduacao extends FuncionarioEnsinoMedio{
     public double getRendaTotal() {
         return super.getRendaTotal() *2;
     }
+
+    @Override
+    public String toString() {
+        return super.toString() + "\n" +
+                "Universidade: " + universidade;
+    }
 }

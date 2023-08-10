@@ -1,5 +1,6 @@
 package questao5a11.questao5e6;
 
+
 public class FuncionarioEnsinoBasico extends Funcionario{
     private String escolaBasico;
 
@@ -26,5 +27,9 @@ public class FuncionarioEnsinoBasico extends Funcionario{
 
         return super.getRendaTotal() * 1.1;
     }
-
+    @Override
+    public String toString() {
+        return super.toString() + "\n" +
+                "Escola Básico: " + escolaBasico;
+    }
 }
