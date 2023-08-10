@@ -1,10 +1,9 @@
-package questao5a11.questao7;
+package questao5a11.questao10;
 
-import questao5a11.questao5e6.Funcionario;
-import questao5a11.questao5e6.FuncionarioEnsinoBasico;
-import questao5a11.questao8.Gerente;
-import questao5a11.questao8.Supervisor;
-import questao5a11.questao8.Vendedor;
+import questao5a11.Funcionario;
+import questao5a11.Gerente;
+import questao5a11.Supervisor;
+import questao5a11.Vendedor;
 
 public class EmpresaCargos {
 
