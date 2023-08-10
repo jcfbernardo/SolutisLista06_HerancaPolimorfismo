@@ -16,7 +16,7 @@ public class FuncionarioGraduacao extends FuncionarioEnsinoMedio{
     }
 
     public double getRendaTotal() {
-        return super.getRendaTotal() + (getRendaBasica() * 2);
+        return super.getRendaTotal() + getRendaBasica();
     }
 
 }

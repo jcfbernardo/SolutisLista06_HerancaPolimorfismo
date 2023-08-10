@@ -25,6 +25,6 @@ public class FuncionarioEnsinoBasico extends Funcionario{
     @Override
     public double getRendaTotal() {
 
-        return super.getRendaTotal() + (getRendaBasica()* 1.1);
+        return super.getRendaTotal() + (getRendaBasica()* 0.1);
     }
 }
